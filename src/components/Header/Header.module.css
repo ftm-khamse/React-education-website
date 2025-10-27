@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    .title{
+        font-size: 2rem;
+        color: var(--pink-6);
+    }
+
+    .navbar{
+        a{
+            margin-right: 4rem;
+            color: var(--pink-5);
+            font-weight: bold;
+
+            &:hover{
+                color: var(--pink-6);
+            }
+        }
+        
+    }
+}

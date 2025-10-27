@@ -1,0 +1,43 @@
+.button{
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: var(--radius-3);
+    transition: .5s;
+    cursor: pointer;
+
+
+    &.solid{
+        background-color: var(--bg-color);
+        color: var(--color);
+
+        &:hover{
+        background-color: var(--pink-3);
+        color: var(--pink-9);
+    }
+
+        &.default{
+            --bg-color:var(--pink-8);
+            --color:var(--gray-1);
+        }
+
+        &.primary{
+            --bg-color:var(--gray-4);
+        }
+    }
+
+    &.outlined{
+        border:var(--border);
+        color: var(--color);
+
+        &.default{
+            --border:2px solid var(--pink-8);
+            --color: var(--pink-8);
+        }
+
+        &.primary{
+            --border:2px solid var(--gray-6);
+            --color:var(--gray-6);
+        }
+
+    }
+}

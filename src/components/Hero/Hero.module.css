@@ -1,0 +1,22 @@
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+
+    .content{
+        font-size: 1rem;
+
+        h3{
+            font-size: 2rem;
+            color: var(--pink-8);
+            font-weight: bold;
+        }
+
+        p{
+            margin: 2rem 0;
+            color: var(--cyan-8);
+            line-height: 1.5rem;
+        }
+    }
+}
